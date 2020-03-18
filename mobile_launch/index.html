@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Design Using HTML And CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="main">
+    <nav>
+      <div class="logo">
+        <img src="image/Realme.png" alt="image">
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">phone</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="information">
+      <div class="overlay"></div>
+      <img src="image/realme5pro.png" alt="mobile" class="mobile">
+      <div id="circle">
+        <div class="feature one">
+          <img src="image/cpu3.png" alt="cpu">
+          <div>
+            <h1>cpu</h1>
+            <p>Bionic chip, 4.5 GZH</p>
+          </div>
+        </div>
+        <div class="feature two">
+          <img src="image/lens2.png" alt="">
+          <div>
+            <h1>
+              Camera
+            </h1>
+            <p>Wide angle lens, 128 MP</p>
+          </div>
+        </div>
+        <div class="feature three">
+          <img src="image/battery6.png" alt="">
+          <div>
+            <h1>
+            Battery
+            </h1>
+            <p>Lithium iron battery, 4500 mah</p>
+          </div>
+        </div>
+        <div class="feature four">
+          <img src="image/display2.png" alt="">
+          <div>
+            <h1>
+            Display
+            </h1>
+            <p>water notch, gorilla glass</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <img src="image/up-arrow2.png" alt="arrow" class="click" id="upbtn">
+      <h3>Features</h3>
+      <img src="image/up-arrow2.png" alt="arrow" class="click" id="downbtn">
+    </div>
+
+<script>
+  var circle = document.getElementById("circle");
+  var upbtn = document.getElementById("upbtn");
+  var downbtn = document.getElementById("downbtn");
+
+  var rotateValue = circle.style.transform;
+  var rotateSum;
+
+  upbtn.onclick = function()
+  {
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue =rotateSum;
+  }
+
+  
+    downbtn.onclick = function () {
+      rotateSum = rotateValue + "rotate(90deg)";
+      circle.style.transform = rotateSum;
+      rotateValue = rotateSum;
+    }
+</script>
+
+  </div>
+</body>
+</html>
