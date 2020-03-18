@@ -1,0 +1,149 @@
+body{
+background: #ffffff;
+}
+/*Navbar starts from here*/
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper > .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+
+
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+#log, #custo, #about{
+padding-left: 1em;
+}
+
+#id{
+    text-align: right;
+}
+
+.navbar-nav .nav-link{
+    padding-left: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+}
+
+
+/*carousel starts from here*/
+.carousel-item{
+    transition: 2s;
+}
+
+h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+}
+
+/*product section*/
+.container{
+    width: 100%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.container h2{
+    background: #383842;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+
+.container h2::after{
+    content: '';
+    border-top: 40px solid #383842;
+    border-right: 40px solid transparent;
+    position: relative;
+    left: 63px;
+    top: 35px;
+}
+
+.row{
+    margin-top: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.product-bottom .fa{
+    color: #383842;
+    font-size: 15px;
+}
+
+
+.product-bottom h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #383842;
+    font-family: 'Heebo', sans-serif;
+}
+
+.product-bottom h5{
+    font-size: 5px;
+    padding-bottom: 10px;
+    color: #383842;
+}
+
+.overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    margin-left: 0;
+    width: 50px;
+}
+
+.product-top:hover .overlay{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.overlay .fa{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+}
+
+.overlay .btn-secondary{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
