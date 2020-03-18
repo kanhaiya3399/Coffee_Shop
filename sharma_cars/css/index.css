@@ -1,0 +1,67 @@
+body{
+padding-bottom: 20px;
+}
+
+
+/*navbar section*/
+.navbar-default .navbar-brand{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+/*navbar section ends*/
+
+
+/*crousels section starts*/
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.carousel .item{
+    height: 500px;
+    background-color: #7777;
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+/*crousels section ends here*/
+
+
+/*btn section*/
+.btn {
+background-color: rgb(42, 130, 165);
+color: black;
+}
+/*btn section end*/
+
+
+/*team section*/
+.team .col-lg-6{
+    text-align: center;
+    margin-bottom: 20px;   
+}
+
+.team h1{
+    color: #1a1110;
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*team section ends*/

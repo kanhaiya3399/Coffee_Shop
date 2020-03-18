@@ -1,0 +1,94 @@
+body{
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #777;
+    white-space: nowrap;
+}
+
+.dropdown-menu{
+    font-size: 13px;
+}
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-wrapper > .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.carousel .item{
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item >img{
+    position: absolute;
+    height: 500px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.team .col-lg-3{
+    text-align: center;
+    margin-bottom: 20px;   
+}
+
+.team h3{
+    color: #1a1110;
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+
+.micky{
+    padding-left: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+.pod{
+    padding-left: 50px;
+}
+
+footer{
+    margin: 0 110px;
+}
+
+
